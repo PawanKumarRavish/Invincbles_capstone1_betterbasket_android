@@ -136,7 +136,7 @@ public class AddressActivity extends FragmentActivity implements OnMapReadyCallb
         });
     }
 
-
+   // connection with google maps
 
     @Override
     public void onMapReady(GoogleMap googleMap) {
