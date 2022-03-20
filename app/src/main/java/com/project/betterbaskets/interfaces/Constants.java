@@ -27,7 +27,7 @@ public interface Constants {
     public static final String TYPE_MALE = "M";
     public static final String TYPE = "type";
     public static final String OTP = "otp";
-    public static final String TYPE_SALON = "salon";
+    public static final String TYPE_STORE = "store";
     public static final String TYPE_CUSTOMER = "customer";
     public static final String APP_SECRET = "645ca3fb-a858-486c-ba5f-e1abe2146e0e";
     public static final String SECRET = "secret";
@@ -59,6 +59,10 @@ public interface Constants {
     public static final String STATUS = "status";
     public static final String STATUS_ONLINE = "online";
     public static final String STATUS_OFFLINE = "offline";
+    public static final String REF_USERS = "users";
+    public static final String REF_STORES = "stores";
+    public static final String REF_CUSTOMERS = "customers";
+    public static final String PHONE_CODE = "+1";
 
 
 

@@ -28,5 +28,6 @@
     <string name="otp_verification">OTP Verification</string>
     <string name="with_ads">Book now with Ads</string>
     <string name="without_ads">Book now without Ads (Pay ₹2)</string>
+    <string name="title_activity_address">AddressActivity</string>
 
 </resources>

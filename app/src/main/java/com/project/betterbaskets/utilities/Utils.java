@@ -32,6 +32,8 @@ import com.google.android.gms.location.LocationServices;
 import com.google.android.gms.location.LocationSettingsRequest;
 import com.google.android.gms.location.LocationSettingsResult;
 import com.google.android.gms.location.LocationSettingsStatusCodes;
+import com.google.firebase.database.DatabaseReference;
+import com.google.firebase.database.FirebaseDatabase;
 import com.google.gson.Gson;
 import com.google.gson.GsonBuilder;
 import com.project.betterbaskets.R;
@@ -277,6 +279,13 @@ public class Utils {
         }
         return gson;
     }
+
+  public static DatabaseReference initialiseFirebase(){
+      FirebaseDatabase mDatabase = FirebaseDatabase.getInstance();
+      DatabaseReference mDatabaseReference=mDatabase.getReference();
+      return mDatabaseReference;
+
+  }
 
 
 

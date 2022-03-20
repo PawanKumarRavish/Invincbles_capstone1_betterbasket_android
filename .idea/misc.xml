@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="app/src/main/res/drawable/ic_address.xml" value="0.19635416666666666" />
+        <entry key="app/src/main/res/drawable/ic_home.xml" value="0.19635416666666666" />
+        <entry key="app/src/main/res/drawable/ic_logout.xml" value="0.19635416666666666" />
+        <entry key="app/src/main/res/drawable/ic_user_image.xml" value="0.19635416666666666" />
+        <entry key="app/src/main/res/layout/activity_address.xml" value="0.165" />
+        <entry key="app/src/main/res/layout/activity_customer_home.xml" value="0.16614583333333333" />
+        <entry key="app/src/main/res/layout/activity_otpverification.xml" value="0.18020833333333333" />
+        <entry key="app/src/main/res/layout/activity_register.xml" value="0.165" />
+        <entry key="app/src/main/res/layout/activity_store_home.xml" value="0.16614583333333333" />
+        <entry key="app/src/main/res/layout/camera_dialog.xml" value="0.18020833333333333" />
+        <entry key="app/src/main/res/layout/nav_header_home.xml" value="0.18020833333333333" />
+        <entry key="app/src/main/res/layout/store_home_frg.xml" value="0.18020833333333333" />
+        <entry key="app/src/main/res/layout/user_home_frg.xml" value="0.18020833333333333" />
+        <entry key="app/src/main/res/layout/user_login_frg.xml" value="0.18020833333333333" />
+        <entry key="app/src/main/res/menu/activity_home_drawer.xml" value="0.18020833333333333" />
+      </map>
+    </option>
+  </component>
+  <component name="ExternalStorageConfigurationManager" enabled="true" />
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="11" project-jdk-type="JavaSDK" />
+</project>

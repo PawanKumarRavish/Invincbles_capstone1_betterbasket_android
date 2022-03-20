@@ -69,11 +69,11 @@ public class LoginActivity extends BaseActivity implements TabLayout.OnTabSelect
         };
 
         if(SharedPreference.isUserLogin()){
-//            startActivity(new Intent(LoginActivity.this,UserHomeActivity.class));
-//            finish();
+            startActivity(new Intent(LoginActivity.this,CustomerHomeActivity.class));
+            finish();
         }else if(SharedPreference.isSalonLogin()){
-//            startActivity(new Intent(LoginActivity.this,SalonHomeActivity.class));
-//            finish();
+            startActivity(new Intent(LoginActivity.this,StoreHomeActivity.class));
+            finish();
         }else{
             tabLayout = (TabLayout) findViewById(R.id.tabLayout);
             viewPager = (ViewPager) findViewById(R.id.pager);
