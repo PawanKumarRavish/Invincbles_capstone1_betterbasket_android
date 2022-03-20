@@ -42,7 +42,7 @@ import java.text.NumberFormat;
 import java.util.Map;
 import java.util.concurrent.TimeUnit;
 
-// Made By sandeep Kaur
+// Made By harpreet kaur
 
 public class OTPVerificationActivity extends BaseActivity implements OnOtpCompletionListener {
 

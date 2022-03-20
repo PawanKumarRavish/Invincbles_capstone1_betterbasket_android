@@ -14,8 +14,8 @@
     <option name="autoReloadType" value="NONE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6d7e0555-c46e-4b2f-aaee-4f714aa2b4d4" name="Default Changelist" comment="Otp Verification screen">
-      <change beforePath="$PROJECT_DIR$/local.properties" beforeDir="false" afterPath="$PROJECT_DIR$/local.properties" afterDir="false" />
+    <list default="true" id="6d7e0555-c46e-4b2f-aaee-4f714aa2b4d4" name="Default Changelist" comment="address activity done">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -240,7 +240,14 @@
       <option name="project" value="LOCAL" />
       <updated>1647799827840</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="address activity done">
+      <created>1647804687180</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1647804687180</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -270,7 +277,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Log in Screen" />
     <MESSAGE value="Otp Verification screen" />
-    <option name="LAST_COMMIT_MESSAGE" value="Otp Verification screen" />
+    <MESSAGE value="address activity done" />
+    <option name="LAST_COMMIT_MESSAGE" value="address activity done" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
