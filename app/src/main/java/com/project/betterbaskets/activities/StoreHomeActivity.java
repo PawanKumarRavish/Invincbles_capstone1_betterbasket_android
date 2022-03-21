@@ -15,6 +15,7 @@ import com.google.android.material.navigation.NavigationView;
 import com.project.betterbaskets.R;
 import com.project.betterbaskets.databinding.ActivityCustomerHomeBinding;
 import com.project.betterbaskets.databinding.ActivityStoreHomeBinding;
+import com.project.betterbaskets.storeFragments.ProductsFrg;
 import com.project.betterbaskets.storeFragments.StoreHomeFrg;
 import com.project.betterbaskets.userfragments.UserHomeFrg;
 import com.project.betterbaskets.utilities.SharedPreference;
@@ -99,6 +100,11 @@ public class StoreHomeActivity extends BaseActivity implements NavigationView.On
             Intent intent = new Intent(StoreHomeActivity.this, LoginActivity.class);
             startActivity(intent);
             finishAffinity();
+        }else if (id == R.id.nav_products) {
+            Utils.doFragmentTransition(R.id.mFrameLl,new ProductsFrg(),getSupportFragmentManager(),true);
+
+        }else if (id == R.id.nav_sales) {
+
         }
         binding.drawerLayout.closeDrawer(Gravity.LEFT);
         return true;

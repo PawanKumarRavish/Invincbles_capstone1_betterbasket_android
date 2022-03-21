@@ -38,6 +38,7 @@ public interface Constants {
     public static final String MOBILE = "mobile_no";
     public static final String PASSWORD = "password";
     public static final String USER_OBJ = "user_obj";
+    public static final String STORE_OBJ = "store_obj";
     public static final String SALON_OBJ = "salonObj";
     public static final String MESSAGE = "message";
     public static final String SHORT_DES = "ShortDes";
@@ -60,6 +61,7 @@ public interface Constants {
     public static final String STATUS_ONLINE = "online";
     public static final String STATUS_OFFLINE = "offline";
     public static final String REF_USERS = "users";
+    public static final String REF_STORE_PRODUCTS = "store_products";
     public static final String REF_STORES = "stores";
     public static final String REF_CUSTOMERS = "customers";
     public static final String PHONE_CODE = "+1";

@@ -29,5 +29,6 @@
     <string name="with_ads">Book now with Ads</string>
     <string name="without_ads">Book now without Ads (Pay ₹2)</string>
     <string name="title_activity_address">AddressActivity</string>
+    <string name="product_name">Product Name</string>
 
 </resources>

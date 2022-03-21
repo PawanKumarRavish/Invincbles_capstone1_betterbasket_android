@@ -3,9 +3,14 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="app/src/main/res/drawable/ic_add.xml" value="0.19635416666666666" />
         <entry key="app/src/main/res/drawable/ic_address.xml" value="0.19635416666666666" />
+        <entry key="app/src/main/res/drawable/ic_delete.xml" value="0.19635416666666666" />
+        <entry key="app/src/main/res/drawable/ic_edit.xml" value="0.19635416666666666" />
         <entry key="app/src/main/res/drawable/ic_home.xml" value="0.19635416666666666" />
         <entry key="app/src/main/res/drawable/ic_logout.xml" value="0.19635416666666666" />
+        <entry key="app/src/main/res/drawable/ic_products.xml" value="0.19635416666666666" />
+        <entry key="app/src/main/res/drawable/ic_sales.xml" value="0.19635416666666666" />
         <entry key="app/src/main/res/drawable/ic_user_image.xml" value="0.19635416666666666" />
         <entry key="app/src/main/res/layout/activity_address.xml" value="0.165" />
         <entry key="app/src/main/res/layout/activity_customer_home.xml" value="0.16614583333333333" />
@@ -13,7 +18,10 @@
         <entry key="app/src/main/res/layout/activity_register.xml" value="0.165" />
         <entry key="app/src/main/res/layout/activity_store_home.xml" value="0.16614583333333333" />
         <entry key="app/src/main/res/layout/camera_dialog.xml" value="0.18020833333333333" />
+        <entry key="app/src/main/res/layout/dialog_add_product.xml" value="0.18020833333333333" />
+        <entry key="app/src/main/res/layout/item_products_design.xml" value="0.25" />
         <entry key="app/src/main/res/layout/nav_header_home.xml" value="0.18020833333333333" />
+        <entry key="app/src/main/res/layout/products_layout.xml" value="0.18020833333333333" />
         <entry key="app/src/main/res/layout/store_home_frg.xml" value="0.18020833333333333" />
         <entry key="app/src/main/res/layout/user_home_frg.xml" value="0.18020833333333333" />
         <entry key="app/src/main/res/layout/user_login_frg.xml" value="0.18020833333333333" />

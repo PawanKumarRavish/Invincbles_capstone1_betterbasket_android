@@ -6,6 +6,7 @@ import android.content.SharedPreferences.Editor;
 
 import com.google.gson.Gson;
 import com.project.betterbaskets.interfaces.Constants;
+import com.project.betterbaskets.models.Users;
 
 
 public class SharedPreference {
@@ -92,6 +93,23 @@ public class SharedPreference {
         Editor editor = mPref.edit();
         editor.putBoolean(Constants.USER_LOGIN, false);
         editor.apply();
+    }
+
+
+    public static Users getLoggedStore() {
+        Gson gson = new Gson();
+        String json = mPref.getString(Constants.STORE_OBJ, "");
+        Users obj = gson.fromJson(json, Users.class);
+        return obj;
+    }
+
+    public static void setLoggedStore(Users userModel) {
+
+        Editor editor2 = mPref.edit();
+        Gson gson = new Gson();
+        String json = gson.toJson(userModel);
+        editor2.putString(Constants.STORE_OBJ, json);
+        editor2.apply();
     }
 
 
